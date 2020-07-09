@@ -14,7 +14,7 @@
 
 .jumbotron
 {
-    
+    margin-top: 20px;
     font-family: 'Kavoon', cursive;
     text-align: center;
     
@@ -81,7 +81,7 @@ border-radius: 50%;
     display: block;
 }
 
- @media screen (min-width:360px){
+ @media screen (min-width:400px){
     .collapse {navbar-collapse}
 }
    
@@ -89,4 +89,13 @@ border-radius: 50%;
     font-family: 'Kavoon', cursive;
 }
 
- 
+
+nav >div#collapsibleNavbar>.ul>.li{
+   
+    color:white;
+}
+
+div#collapsibleNavbar>.li:nth-child(2){
+    flex-grow: 1;
+    color:white;
+}

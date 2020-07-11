@@ -1,8 +1,15 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Kavoon&display=swap');
+
+.navbar-nav
+{
+ display: flex;
+
+}
+
+
 .container
 {
- 
+ margin-top: 2rem;
 
 }
 
@@ -14,7 +21,7 @@
 
 .jumbotron
 {
-    margin-top: 20px;
+    
     font-family: 'Kavoon', cursive;
     text-align: center;
     
@@ -32,10 +39,11 @@ font-size: 20px;
 
     }
 .container2 {
-    margin-left: 260px;
     display: flex;
-    justify-content:center;
- 
+    justify-content: center;
+    width: 100%;    
+    margin-left: 16rem;
+     
 }
 
 .card 
@@ -76,12 +84,15 @@ border-radius: 50%;
 border-radius: 50%;
  }
 
- .navbar-toggler
-{
-    display: block;
-}
+ #collapsibleNavbar{
+    
+    position: relative
+        width: 40%;
+    
+        }
 
- @media screen (min-width:400px){
+
+ @media screen (min-width:360px){
     .collapse {navbar-collapse}
 }
    
@@ -90,12 +101,23 @@ border-radius: 50%;
 }
 
 
-nav >div#collapsibleNavbar>.ul>.li{
-   
-    color:white;
-}
+div>ul
+ { 
+ /*  margin-left: 95rem; */
 
-div#collapsibleNavbar>.li:nth-child(2){
-    flex-grow: 1;
-    color:white;
-}
+div>ul>li>a
+ { 
+   margin-left: auto;
+  
+ 
+ }
+ nav > .collapsibleNavbar {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  nav > .menu.responsive > a.navbar-collapse {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }

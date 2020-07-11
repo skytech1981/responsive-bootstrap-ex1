@@ -4,29 +4,30 @@
   <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
-      </head>
-  <body>
+    <script type="text/javascript"></script>
+  </head>
+ <body>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <!-- Brand -->
+      
       <a class="navbar-brand" href="#">CatBook</a>
     
-      <!-- Toggler/collapsibe Button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <button id="btnToggle" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
     
-      <!-- Navbar links -->
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sign Up</a></li>
-        </ul>
-      </div>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar" onclick="myFunction()">
+             <ul class="navbar-nav">
+                    <li class="nav-item">
+                     <a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="#">Signup</a></li>
+     
+              </ul>
+         </div>
     </nav>
 <div class="container">
     <div class="row">
@@ -40,7 +41,7 @@
 </div>
 <div class="container2">
     <div class="row">
-      <div class="col-lg-3">
+      <div class="col-md-3">
   <div class="card" >
     <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/83D7/production/_111515733_gettyimages-1208779325.jpg" class="p-img-1" alt="...">
     <div class="card-body">
@@ -50,7 +51,7 @@
     </div>
     </div>
   </div>
-  <div class="col-lg-3">
+  <div class="col-md-3">
   <div class="card" >
     <img src="https://undark.org/wp-content/uploads/2020/02/GettyImages-1199242002-1-scaled.jpg" class="p-img-2" alt="...">
     <div class="card-body">
@@ -60,7 +61,7 @@
     </div>
   </div>
 </div>
-<div class="col-lg-3">
+<div class="col-md-3">
     <div class="card" >
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSJTq5jn5PdGcJzvoo3t_Ag3hBptrV5IADgnA&usqp=CAU" class="p-img-3" alt="...">
     <div class="card-body">

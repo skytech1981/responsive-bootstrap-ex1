@@ -39,17 +39,35 @@ font-size: 20px;
 
     }
 .container2 {
+   position: absolute;
     display: flex;
     justify-content: center;
-    width: 100%;    
-    margin-left: 16rem;
+    width: 80%;    
+    margin-left: 24rem;
      
 }
 
+.container3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 80%;    
+    margin-left: 24rem;
+     
+}
+
+.container4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 80%;    
+    margin-left: 24rem;
+     
+}
 .card 
 {
     background-color: rgb(248, 248, 248);
-     max-width: 350px;
+     max-width: 300px;
      height: 400px;
      padding: 10px;
      align-items: center;
@@ -67,18 +85,21 @@ font-size: 20px;
 
  .p-img-1 
  {
+     margin-top: 20px;
          max-width: 200px;
      height: 200px;
 border-radius: 50%;
  }
  .p-img-2
  {
+    margin-top: 20px;
      max-width: 200px;
      height: 200px;
 border-radius: 50%;
  }
  .p-img-3 
  {
+    margin-top: 20px;
      max-width: 200px;
      height: 200px;
 border-radius: 50%;
@@ -121,3 +142,4 @@ div>ul>li>a
     top: 0;
     right: 0;
   }
+
